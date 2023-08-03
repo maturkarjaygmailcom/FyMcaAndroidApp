@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rr_friFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+
+            <TextView
+                android:layout_width="177dp"
+
+                android:text="09:00-10:00\n"
+                android:textSize="33sp"
+                android:paddingRight="0dp"
+                />
+
+            <TextView
+                android:id="@+id/bdt"
+
+                android:text="BDT (RR) \n"
+                android:textSize="33sp"
+
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="10:00-11:00 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/py"
+                android:text="  \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="11:00-11:30  "
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/breakone"
+                android:text=""
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="11:30-12:30 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/dslabone"
+                android:text="    \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="12:30-01:30 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/dslabtwo"
+                android:text="     \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="01:30-01:45 "
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/breaktwo"
+                android:text=""
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="01:45-02:45 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/cnlabone"
+                android:text="   \n "
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="02:45-03:45 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/cnlabtwo"
+                android:text="   \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

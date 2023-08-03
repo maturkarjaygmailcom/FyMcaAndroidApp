@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="100dp"
+        android:text="Choose!!"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnFacul"
+
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/stufacpage"
+        android:elevation="4dp"
+        android:text="FACULTY"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/btnStu"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/stufac2"
+        android:elevation="4dp"
+        android:text="STUDENT"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="22dp"/>
+
+
+</LinearLayout>
+

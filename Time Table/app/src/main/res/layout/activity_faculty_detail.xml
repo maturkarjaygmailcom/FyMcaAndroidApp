@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".facultyDetailActivity">
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+
+
+        <TextView
+            android:layout_width="177dp"
+
+            android:text="\t\t\t\t\t\t\tYL\n"
+            android:textSize="33sp"
+            android:paddingRight="0dp"
+            />
+
+
+        <TextView
+            android:id="@+id/pylabone"
+
+            android:text="yogeshvari \nma'am\n "
+            android:textSize="33sp"
+
+
+            />
+
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+        <TextView
+            android:text="\t\t\t\t\t\t\tRP\n"
+            android:textSize="33sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/pylabtwo"
+            android:text="Rajnish Sir\n"
+            android:textSize="33sp"
+
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+        <TextView
+            android:text="\t\t\t\t\t\t\tPN  "
+            android:textSize="33sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/breakone"
+            android:text="Priyanka \nma'am\n"
+            android:textSize="33sp"
+
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+        <TextView
+            android:text="\t\t\t\t\t\t\tSS\n"
+            android:textSize="33sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/dslabone"
+            android:text="Saziya \nma'am\n"
+            android:textSize="33sp"
+
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+        <TextView
+            android:text="\t\t\t\t\t\t\tJT\n"
+            android:textSize="33sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/dslabtwo"
+            android:text="Jinal \nma'am\n"
+            android:textSize="33sp"
+
+            />
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp">
+        <TextView
+            android:text="\t\t\t\t\t\t\tHB "
+            android:textSize="33sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/breaktwo"
+            android:text="Hemina\n ma'am"
+            android:textSize="33sp"
+
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp"/>
+
+
+    <TableRow
+        android:layout_marginTop="0dp"
+        android:paddingLeft="0dp"/>
+
+
+
+
+
+
+</TableLayout>
+
+
+
+</LinearLayout>

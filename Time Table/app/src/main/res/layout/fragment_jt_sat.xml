@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jt_satFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+
+            <TextView
+                android:layout_width="177dp"
+
+                android:text="09:00-10:00\n"
+                android:textSize="33sp"
+                android:paddingRight="0dp"
+                />
+
+            <TextView
+                android:id="@+id/sponelabone"
+
+                android:text="SP1 Lab \n"
+                android:textSize="33sp"
+
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="10:00-11:00 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/sponelabtwo"
+                android:text="SP1 Lab \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="11:00-11:30  "
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/breakone"
+                android:text=""
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="11:30-12:30 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/andrlabone"
+                android:text="     \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="0dp"
+            android:paddingLeft="0dp">
+            <TextView
+                android:text="12:30-01:30 \n"
+                android:textSize="33sp"
+
+                />
+
+            <TextView
+                android:id="@+id/andrlabtwo"
+                android:text="    \n"
+                android:textSize="33sp"
+
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

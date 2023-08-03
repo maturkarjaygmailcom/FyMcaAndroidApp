@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".choseyourself"
+    android:background="@drawable/select_bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:text="Choose Your Self"
+        android:textSize="30sp"
+        />
+
+
+    <Button
+        android:id="@+id/btnpri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:text="Priyanka maam"
+        android:background="@drawable/sel_btn"
+        />
+
+    <Button
+        android:id="@+id/btnsaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saziya maam"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/sel_btn"
+        />
+    <Button
+        android:id="@+id/btnjt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jinal maam"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/sel_btn"
+        />
+    <Button
+        android:id="@+id/btnhb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hemina maam"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/sel_btn"
+        />
+    <Button
+        android:id="@+id/btnyl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yogeshvari maam"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/sel_btn"
+        />
+    <Button
+        android:id="@+id/btnrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rajnish Sir"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/sel_btn"
+        />
+
+</LinearLayout>
+
